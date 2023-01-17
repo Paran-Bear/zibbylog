@@ -1,0 +1,19 @@
+{
+  "name": "@zibbylog/root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "zibby monorepo",
+  "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm",
+    "dev:next": "pnpm --filter @zibby/next dev"
+  },
+  "engines": {
+    "node": ">=18.13.0",
+    "pnpm": ">=7.25.0"
+  },
+  "packageManager": "pnpm@7.25.0",
+  "devDependencies": {
+    "pnpm": "^7.25.0"
+  },
+  "author": "zibby"
+}
