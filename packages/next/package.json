@@ -1,14 +1,16 @@
 {
-  "name": "next",
+  "name": "@zibby/next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@zibby/common": "^0.0.1",
     "@next/font": "13.1.2",
     "next": "13.1.2",
     "react": "^18.2.0",

@@ -11,6 +11,7 @@
     "node": ">=18.13.0",
     "pnpm": ">=7.25.0"
   },
+  "workspaces": ["**"],
   "packageManager": "pnpm@7.25.0",
   "devDependencies": {
     "pnpm": "^7.25.0"
